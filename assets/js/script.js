@@ -36,7 +36,7 @@ function jugarUnaVez(numero) {
     let resultado = determinarGanador(opcionJugador, opcionMaquina);
     alert(resultado);
 }
-//4.Función que le muestra al usuario su elección y la de la máquina.
+//4.Función que le muestra al jugador su elección y la de la máquina.
 function opcionComoTexto(opcion) {
     switch(opcion) {
         case PIEDRA:
@@ -59,5 +59,5 @@ function determinarGanador(Jugador, Maquina) {
         return "GANASTES 🎉🎉!";
     } else {
         return "PERDISTES 🥲!";
-}
+    }
 }

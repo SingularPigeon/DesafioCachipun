@@ -1,0 +1,23 @@
+body {
+  margin: 3rem;
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #1d1d1d;
+  color:#fafafa;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #38a3bb;
+  border-radius: 10px;
+  border:none;
+  font-family:"Dosis", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color:#fafafa;
+}
+
+.btn:hover {
+  background-color: #6bc1d4;
+}
